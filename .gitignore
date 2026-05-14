@@ -1,0 +1,49 @@
+# API keys and environment variables
+.env
+
+# Large data files 
+data/raw/
+data/processed/
+data/vector_db/
+
+# Python cache files 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Package build artifacts
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Model weights and large binary files
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+logs/

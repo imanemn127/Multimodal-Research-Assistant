@@ -1,0 +1,19 @@
+name: msra
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pdfplumber
+      - pymupdf
+      - python-dotenv
+      - tqdm
+      - sentence-transformers
+      - chromadb
+      - openai
+
+
+
+
