@@ -13,6 +13,11 @@ dependencies:
       - sentence-transformers
       - chromadb
       - openai
+      - fastapi 
+      - uvicorn 
+      - python-multipart
+      - streamlit
+
 
 
 
